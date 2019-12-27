@@ -30,8 +30,7 @@ if __name__ == "__main__":
     PASSWORD = 'password'
     names, emails = get_contacts("mycontacts.txt")
     message_template = read_template('message.txt')
-    # name = "Chuonglv"
-    # email = 'lvchuong@irissec.net'
+
     try:
         server = smtplib.SMTP('smtp.gmail.com',587)
         server.ehlo()
