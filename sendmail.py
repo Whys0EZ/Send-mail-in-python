@@ -26,10 +26,10 @@ def read_template(filename):
     return Template(template_file_content)
 
 if __name__ == "__main__":
-    MY_ADDRESS = 'phamanh1100@gmail.com'
-    PASSWORD = '@Chuong01@12'
-    names, emails = get_contacts("/home/chuonglv/Desktop/mycontacts.txt")
-    message_template = read_template('/home/chuonglv/Desktop/message.txt')
+    MY_ADDRESS = 'uername@gmail.com'
+    PASSWORD = 'password'
+    names, emails = get_contacts("mycontacts.txt")
+    message_template = read_template('message.txt')
     # name = "Chuonglv"
     # email = 'lvchuong@irissec.net'
     try:
